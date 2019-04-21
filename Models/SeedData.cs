@@ -28,28 +28,32 @@ namespace RazorPagesMovie.Models
               Title = "Enter the Dragon",
               ReleaseDate = DateTime.Parse("1973-08-19"),
               Genre = "Action",
-              Price = 3.99M
+              Price = 3.99M,
+              Rating = "R"
             },
             new Movie
             {
               Title = "Drunken Master",
               ReleaseDate = DateTime.Parse("1978-10-05"),
               Genre = "Action",
-              Price = 2.99M
+              Price = 2.99M,
+              Rating = "PG-13"
             },
             new Movie
             {
               Title = "Terminator 2: Judgment Day",
               ReleaseDate = DateTime.Parse("1991-07-03"),
               Genre = "Action",
-              Price = 2.99M
+              Price = 2.99M,
+              Rating = "R"
             },
             new Movie
             {
               Title = "The Terminator",
               ReleaseDate = DateTime.Parse("1984-10-26"),
               Genre = "Action",
-              Price = 1.99M
+              Price = 1.99M,
+              Rating = "R"
             }
         );
 
